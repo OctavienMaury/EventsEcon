@@ -3,3 +3,5 @@
 Feel free to ask for new features or recommendations.
 
 📧 [octavien.maury@assas-universite.fr](mailto:octavien.maury@assas-universite.fr)
+
+https://octavienmaury.github.io/EventsEcon/

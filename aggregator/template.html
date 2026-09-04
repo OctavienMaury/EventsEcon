@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Séminaires d'économie — Paris</title>
+<meta name="description" content="Toutes les séances de séminaires, ateliers et colloques d'économie des laboratoires parisiens, sur une seule page.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F5F1; --ink:#15243A; --ink-soft:#5E6878; --rule:#D8D4C9;
+    --mark:#EDE04B; --white:#FFFDF8;
+    --serif:"Newsreader",Georgia,serif; --sans:"Archivo","Helvetica Neue",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+       font-size:16px;line-height:1.45;font-variant-numeric:tabular-nums}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* ------------------------------------------------------------- en-tête */
+  header{padding:44px 0 26px;border-bottom:2px solid var(--ink)}
+  h1{font-family:var(--serif);font-size:clamp(30px,5vw,46px);font-weight:500;
+     line-height:1.05;margin:0 0 10px;letter-spacing:-.01em}
+  .lede{max-width:56ch;color:var(--ink-soft);margin:0}
+  .stamp{font-size:13px;color:var(--ink-soft);margin-top:14px}
+
+  /* ------------------------------------------------------------ prochaine */
+  .next{margin:26px 0 0;padding:20px 0 22px;border-bottom:1px solid var(--rule)}
+  .next .eyebrow{font-size:13px;color:var(--ink-soft);margin-bottom:8px}
+  .next h2{font-family:var(--serif);font-weight:400;font-size:clamp(20px,3vw,28px);
+           margin:0 0 6px;line-height:1.25}
+  .next h2 span{background:linear-gradient(transparent 62%,var(--mark) 62%);padding:0 2px}
+  .next .meta{font-size:14px;color:var(--ink-soft)}
+
+  /* -------------------------------------------------------------- filtres */
+  .controls{position:sticky;top:0;z-index:20;background:var(--paper);
+            border-bottom:1px solid var(--rule);padding:12px 0}
+  .controls .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  input[type=search]{flex:1 1 240px;min-width:180px;font:inherit;padding:9px 12px;
+    border:1px solid var(--rule);background:var(--white);border-radius:2px;color:inherit}
+  input[type=search]::placeholder{color:#9AA1AD}
+  select{font:inherit;padding:9px 10px;border:1px solid var(--rule);
+         background:var(--white);border-radius:2px;color:inherit}
+  .seg{display:flex;border:1px solid var(--rule);border-radius:2px;overflow:hidden}
+  .seg button{font:inherit;font-size:14px;padding:9px 13px;border:0;background:var(--white);
+              cursor:pointer;color:var(--ink-soft);border-right:1px solid var(--rule)}
+  .seg button:last-child{border-right:0}
+  .seg button[aria-pressed=true]{background:var(--ink);color:var(--white)}
+  .count{font-size:13px;color:var(--ink-soft);padding:8px 0 0}
+
+  /* ------------------------------------------------------------ programme */
+  .day{display:grid;grid-template-columns:132px 1fr;gap:24px;
+       border-bottom:1px solid var(--rule);padding:22px 0}
+  .day.today .date b{background:linear-gradient(transparent 60%,var(--mark) 60%)}
+  .date{position:sticky;top:74px;align-self:start;font-size:14px;color:var(--ink-soft)}
+  .date b{display:block;font-family:var(--serif);font-size:26px;font-weight:500;
+          color:var(--ink);line-height:1.1}
+  .sessions{display:flex;flex-direction:column;gap:20px;min-width:0}
+
+  .s{display:grid;grid-template-columns:78px 1fr;gap:16px;min-width:0}
+  .s .time{font-size:14px;color:var(--ink-soft);padding-top:2px}
+  .s .series{font-size:13px;letter-spacing:.005em;color:var(--ink-soft);
+             display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+  .dot{width:9px;height:9px;border-radius:50%;flex:none}
+  .s h3{font-family:var(--serif);font-weight:400;font-size:19px;line-height:1.3;
+        margin:4px 0 5px;max-width:62ch}
+  .who{font-size:14.5px;margin-bottom:5px}
+  .who b{font-weight:600}
+  .who em{font-style:normal;color:var(--ink-soft)}
+  .where{font-size:13.5px;color:var(--ink-soft)}
+  .where a{text-decoration-color:var(--rule);text-underline-offset:2px}
+  .acts{margin-top:7px;display:flex;gap:14px;flex-wrap:wrap}
+  .acts button,.acts a{font:inherit;font-size:13px;color:var(--ink-soft);background:none;
+    border:0;padding:0;cursor:pointer;text-decoration:underline;
+    text-decoration-color:var(--rule);text-underline-offset:3px}
+  .acts button:hover,.acts a:hover,.acts button:focus,.acts a:focus{color:var(--ink)}
+  .joint{font-size:12.5px;color:var(--ink-soft);border-left:2px solid var(--mark);padding-left:7px}
+
+  .empty{padding:60px 0;max-width:48ch}
+  .empty h3{font-family:var(--serif);font-weight:400;font-size:22px;margin:0 0 8px}
+  .empty p{color:var(--ink-soft);margin:0}
+
+  footer{border-top:2px solid var(--ink);margin-top:40px;padding:26px 0 60px;
+         font-size:13.5px;color:var(--ink-soft)}
+  footer a{text-underline-offset:3px}
+  .banner{background:var(--mark);padding:10px 0;font-size:14px}
+  :focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+  @media (max-width:720px){
+    .day{grid-template-columns:1fr;gap:12px}
+    .date{position:static}
+    .date b{display:inline;font-size:20px}
+    .s{grid-template-columns:1fr;gap:2px}
+    .s .time{padding-top:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<div id="banner"></div>
+
+<header>
+  <div class="wrap">
+    <h1>Séminaires d'économie<br>à Paris</h1>
+    <p class="lede">Toutes les séances annoncées par les labos et départements d'économie
+      d'Île-de-France, rassemblées et dédoublonnées. Où, quand, qui parle, de quoi.</p>
+    <p class="stamp" id="stamp"></p>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="next" id="next"></section>
+</div>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="row">
+      <input type="search" id="q" placeholder="Chercher un intervenant, un titre, un séminaire…" aria-label="Recherche">
+      <select id="inst" aria-label="Institution"></select>
+      <select id="field" aria-label="Champ"></select>
+      <div class="seg" role="group" aria-label="Période">
+        <button data-range="7" aria-pressed="true">7 jours</button>
+        <button data-range="30" aria-pressed="false">30 jours</button>
+        <button data-range="0" aria-pressed="false">Tout</button>
+      </div>
+    </div>
+    <div class="count" id="count"></div>
+  </div>
+</div>
+
+<main class="wrap" id="list"></main>
+
+<footer>
+  <div class="wrap">
+    <p>Sources : <span id="srclist"></span>.</p>
+    <p>S'abonner dans son agenda : <a href="agenda.ics">agenda.ics</a> ·
+       Données brutes : <a href="events.json">events.json</a> ·
+       Une séance manque ? Ajoute la source dans <code>sources.yaml</code>.</p>
+  </div>
+</footer>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+const DB = JSON.parse(document.getElementById('data').textContent);
+const EV = DB.events, VEN = DB.venues;
+const PALETTE = ['#15243A','#B03A2E','#1E6E5A','#7A4E9E','#C2761B','#2A6FB0',
+                 '#8A5B2B','#4A7C1F','#A63D6B','#3E5C76','#6D6E71','#0F766E'];
+const colorOf = {};
+[...new Set(EV.map(e=>e.institution))].sort().forEach((n,i)=>colorOf[n]=PALETTE[i%PALETTE.length]);
+
+const JOURS=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const MOIS=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+const hm = d => String(d.getHours()).padStart(2,'0')+'h'+String(d.getMinutes()).padStart(2,'0');
+const esc = s => (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+if (DB.demo) document.getElementById('banner').innerHTML =
+  '<div class="banner"><div class="wrap">Données de démonstration. Lance '+
+  '<code>python -m aggregator run</code> pour collecter les vraies séances.</div></div>';
+
+document.getElementById('stamp').textContent =
+  EV.length + ' séances · ' + DB.sources.length + ' sources · mis à jour le ' + DB.built;
+document.getElementById('srclist').textContent = DB.sources.map(s=>s.name).join(' · ');
+
+function fill(sel, values, label){
+  const el = document.getElementById(sel);
+  el.innerHTML = '<option value="">'+label+'</option>' +
+    values.map(v=>`<option>${esc(v)}</option>`).join('');
+}
+fill('inst', [...new Set(EV.map(e=>e.institution))].sort(), 'Toutes les institutions');
+fill('field', [...new Set(EV.map(e=>e.field))].sort(), 'Tous les champs');
+
+const state = {q:'', inst:'', field:'', range:7};
+
+function matches(e){
+  if (state.inst && e.institution !== state.inst) return false;
+  if (state.field && e.field !== state.field) return false;
+  const d = new Date(e.start);
+  const now = new Date(); now.setHours(0,0,0,0);
+  if (d < now) return false;
+  if (state.range){
+    const lim = new Date(now); lim.setDate(lim.getDate()+state.range);
+    if (d > lim) return false;
+  }
+  if (state.q){
+    const hay = [e.series,e.title,e.speaker,e.affiliation,e.room,e.institution]
+      .join(' ').toLowerCase();
+    return state.q.toLowerCase().split(/\s+/).every(t=>hay.includes(t));
+  }
+  return true;
+}
+
+function icsFor(e){
+  const p = s => new Date(s).toISOString().replace(/[-:]|\.\d{3}/g,'');
+  const end = e.end || new Date(new Date(e.start).getTime()+75*6e4).toISOString();
+  const body = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//agenda-eco-paris//FR','BEGIN:VEVENT',
+    'UID:'+e.uid+'@agenda-eco-paris','DTSTART:'+p(e.start),'DTEND:'+p(end),
+    'SUMMARY:'+(e.series+(e.speaker?' — '+e.speaker:'')).replace(/[,;]/g,' '),
+    'DESCRIPTION:'+(e.title||'').replace(/[,;\n]/g,' ')+' '+(e.url||''),
+    'LOCATION:'+[e.room,(VEN[e.institution]||{}).address].filter(Boolean).join(', ').replace(/[,;]/g,' '),
+    'END:VEVENT','END:VCALENDAR'].join('\r\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([body],{type:'text/calendar'}));
+  a.download = (e.series||'seance').replace(/\W+/g,'-').slice(0,40)+'.ics';
+  a.click(); URL.revokeObjectURL(a.href);
+}
+
+function render(){
+  const rows = EV.filter(matches);
+  document.getElementById('count').textContent =
+    rows.length ? rows.length+' séance'+(rows.length>1?'s':'')+' affichée'+(rows.length>1?'s':'')
+                : 'Aucune séance ne correspond';
+  const list = document.getElementById('list');
+
+  if (!rows.length){
+    list.innerHTML = '<div class="empty"><h3>Rien à cet endroit du calendrier</h3>'+
+      '<p>Élargis la période ou retire un filtre. Les séances passées ne sont pas affichées.</p></div>';
+    return;
+  }
+
+  const byDay = {};
+  rows.forEach(e=>{ const k = e.start.slice(0,10); (byDay[k] ||= []).push(e); });
+  const todayKey = new Date().toISOString().slice(0,10);
+
+  list.innerHTML = Object.keys(byDay).sort().map(k=>{
+    const d = new Date(k+'T12:00');
+    const items = byDay[k].map(e=>{
+      const s = new Date(e.start), en = e.end ? new Date(e.end) : null;
+      const v = VEN[e.institution] || {};
+      const place = [e.room, v.address].filter(Boolean).join(' · ');
+      const map = v.lat ? `<a href="https://www.openstreetmap.org/?mlat=${v.lat}&mlon=${v.lon}#map=17/${v.lat}/${v.lon}" target="_blank" rel="noopener">plan</a>` : '';
+      return `<article class="s">
+        <div class="time">${hm(s)}${en?'–'+hm(en):''}</div>
+        <div>
+          <div class="series"><span class="dot" style="background:${colorOf[e.institution]}"></span>
+            ${esc(e.series)} · ${esc(e.institution)}</div>
+          ${e.title?`<h3>${esc(e.title)}</h3>`:''}
+          ${e.speaker?`<div class="who"><b>${esc(e.speaker)}</b>${e.affiliation?' <em>('+esc(e.affiliation)+')</em>':''}</div>`:''}
+          <div class="where">${esc(place)||'Lieu non précisé'} ${map}${v.transit?' · '+esc(v.transit):''}</div>
+          ${e.also_at.length?`<div class="joint">Séance commune, annoncée aussi par : ${esc(e.also_at.join(', '))}</div>`:''}
+          <div class="acts">
+            <button data-uid="${e.uid}">Ajouter à mon agenda</button>
+            ${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Page du séminaire</a>`:''}
+          </div>
+        </div></article>`;
+    }).join('');
+    return `<section class="day${k===todayKey?' today':''}">
+      <div class="date"><b>${d.getDate()} ${MOIS[d.getMonth()]}</b>${JOURS[d.getDay()]}</div>
+      <div class="sessions">${items}</div></section>`;
+  }).join('');
+
+  list.querySelectorAll('.acts button').forEach(b=>
+    b.onclick = () => icsFor(EV.find(e=>e.uid===b.dataset.uid)));
+}
+
+function renderNext(){
+  const now = new Date();
+  const e = EV.filter(x=>new Date(x.start)>=now).sort((a,b)=>a.start.localeCompare(b.start))[0];
+  const box = document.getElementById('next');
+  if (!e){ box.remove(); return; }
+  const d = new Date(e.start);
+  box.innerHTML = `<div class="eyebrow">Prochaine séance</div>
+    <h2><span>${esc(e.series)}</span></h2>
+    <div class="meta">${JOURS[d.getDay()]} ${d.getDate()} ${MOIS[d.getMonth()]} à ${hm(d)} ·
+      ${esc(e.institution)}${e.room?' · '+esc(e.room):''}
+      ${e.speaker?' · '+esc(e.speaker):''}</div>`;
+}
+
+document.getElementById('q').oninput = ev => { state.q = ev.target.value; render(); };
+document.getElementById('inst').onchange = ev => { state.inst = ev.target.value; render(); };
+document.getElementById('field').onchange = ev => { state.field = ev.target.value; render(); };
+document.querySelectorAll('.seg button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed','false'));
+  b.setAttribute('aria-pressed','true');
+  state.range = +b.dataset.range; render();
+});
+
+renderNext(); render();
+</script>
+</body>
+</html>

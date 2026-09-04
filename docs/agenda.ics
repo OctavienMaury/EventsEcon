@@ -1,0 +1,1239 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agenda-eco-paris//FR
+X-WR-CALNAME:Séminaires d'économie — Paris
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1f888956faae@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260904T090000
+DTEND:20260904T174000
+SUMMARY:Colloque en l’honneur de François Bourguignon\, lauréat du Prix de la Revue économique 2026
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:Amphithéâtre Daniel Cohen\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:7b5513e6550b@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260907T121500
+DTEND:20260907T133000
+SUMMARY:Xavier RAGOT (Sciences Po) &#8220\;Time-Consistent Public Policy and Inequality&#8221\;
+DESCRIPTION:Séminaire Macro 12h15 – 13h30 lundi 7 Septembre 2026 Salle 3001 Xavier RAGOT (Sciences Po) “Time-Consistent Public Policy and Inequality” Summary : T.B.A Joint work with: François LE GRAND\, Matthew PIXXCOCK\, Gianluca VIOLANTE https://crest.science/event/xavier-ragot-ofce-t-b-a/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:26abe04d5d6d@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260907T123000
+DTEND:20260907T134500
+SUMMARY:Departmental Seminar — Peter SCHWARDMANN
+DESCRIPTION:Carnegie Mellon University https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:1cf29e61db22@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260907T123000
+DTEND:20260907T134500
+SUMMARY:Régulation et Environnement — Bruno Conte
+DESCRIPTION:UPF https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-09\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:526084fde325@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260908T093000
+DTEND:20260908T181000
+SUMMARY:Produits agrochimiques : santé\, mondialisation et biodiversité
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-09\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:d55505c95e65@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260908T121500
+DTEND:20260908T133000
+SUMMARY:Emma DU PUY (Sciences Po) &#8211\; &#8220\;Unintended Environmental Policies: The Impact of European Agricultural Subsidies on Pollution&#8221\;
+DESCRIPTION:Applied Micro Seminar : Every Tuesday Time: 12:15 pm – 13:30 pm Date: September\, 8 Room : 3001 Emma DU PUY (Sciences Po) “Unintended Environmental Policies: The Impact of European Agricultural Subsidies on Pollution” Abstract : I study the environmental impact of production subsidies in https://crest.science/event/thttps-tristandupuy-github-io/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:ac913ea943c8@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260908T123000
+DTEND:20260908T133000
+SUMMARY:Lunch séminaire d’économie appliquée — Biniyam G.Worku
+DESCRIPTION:UCD https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R2-21\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:6405314721c4@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260909T121500
+DTEND:20260909T133000
+SUMMARY:Gonçalves DUARTE (UCL) &#8211\; &#8220\;Speed\, accuracy\, and complexity&#8221\;
+DESCRIPTION:Séminaire Microéconomie : Tous les mercredis Heure : 12h15 – 13h30 Date : 09/09/2026 Salle : 3001 Gonçalves DUARTE (UCL) – “Speed\, accuracy\, and complexity” CV : This paper studies when response time is informative about problem complexity. It revisits a canonical sequential-sampling model https://crest.science/event/goncalves-duarte-ucl-speed-accuracy-and-complexity/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:ee6da9343df7@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260909T123000
+DTEND:20260909T134500
+SUMMARY:Histoire économique — Chris Colvin
+DESCRIPTION:QBS https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-09\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:75182a0a8f9e@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260909T140000
+DTEND:20260909T151500
+SUMMARY:Macroeconomics Seminar — Benjamin MOLL
+DESCRIPTION:LSE https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:d076b58021dc@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260910T090000
+DTEND:20260910T180000
+SUMMARY:Conférence annuelle du projet SAFEPAW
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-09\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:f36d975f4b69@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260910T100000
+DTEND:20260910T120000
+SUMMARY:Marcelo SENA (Stanford University) &#8220\;Pricing and Risk in Sovereign Green Debt: Evidence from Chile&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext]Séminaire QSEF – Quantitative Sustainable Economics and Finance 10h – 12h jeudi 10 septembre 2026 Salle 3001 Marcelo SENA (Stanford University) “Pricing and Risk in Sovereign Green Debt: Evidence from Chile” Résumé : We study the pricing of sover https://crest.science/event/marcelo-sena-stanford-university/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:dd9fcee5ba40@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260910T123000
+DTEND:20260910T134500
+SUMMARY:Groupe de travail : Macro Workshop
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-15\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:b41724f6fd57@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260910T123000
+DTEND:20260910T140000
+SUMMARY:Paris Empirical Political Economics Seminar (PEPES) — Gregory MARTIN
+DESCRIPTION:Stanford Graduate School of Business https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-14\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:d69da9922591@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260910T123000
+DTEND:20260910T133000
+SUMMARY:Travail et économie publique (interne) — Thomas Bezy
+DESCRIPTION:PSE https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R2-21\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:1b92c2593a2c@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260911T100000
+DTEND:20260911T122500
+SUMMARY:Retraites et parcours de vie
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R2-21\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:64920aa3c345@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260911T111500
+DTEND:20260911T123000
+SUMMARY:Economics and Psychology Seminar — Egon Tripodi
+DESCRIPTION:Berlin Hertie School https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:Room 116 MSE\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:10f1bf8e3283@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260911T123000
+DTEND:20260911T134500
+SUMMARY:Friday Seminar — Stefano CARATTINI
+DESCRIPTION:Georgia State University https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:3d4953dd9870@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260914T090000
+DTEND:20260914T160000
+SUMMARY:Conférence internationale de Paris sur la fiscalité et la gestion des ressources naturelles dans le bassin du Congo
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:TBA\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:983606c7e4cf@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260914T121500
+DTEND:20260914T133000
+SUMMARY:Simon BUNEL (INSEAD) &#8220\;Cultivating Productivity through Regulation: The Case of Pesticide Bans in France&#8221\;
+DESCRIPTION:Séminaire Macro 12h15 – 13h30 14 septembre 2026 Salle 3001 Simon BUNEL (INSEAD) “Cultivating Productivity through Regulation: The Case of Pesticide Bans in France” Résumé : This paper examines the long-standing debate on regulation’s impact on productivity and innovation using novel Fr https://crest.science/event/simon-bunel-insead-t-b-a/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:f88ca321fd2a@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260914T141500
+DTEND:20260914T165000
+SUMMARY:GPET internal seminar
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R2-01\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:4162a57b2d37@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260914T160000
+DTEND:20260914T171500
+SUMMARY:Théorie économique Roy-Adres — Alex Smolin
+DESCRIPTION:TSE https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-09\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:915222360f3f@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260916T121500
+DTEND:20260923T133000
+SUMMARY:Regis RENAULT (Cergy) &#8211\; &#8220\;tba&#8221\;
+DESCRIPTION:Séminaire Microéconomie : Tous les mercredis Heure : 12h15 – 13h30 Date : 16/09/2026 Salle : 3001 Regis RENAULT (Cergy) – “tba” CV : “tba” Organisateurs : Louis PAPE (Telecom Paris – Pôle d’Economie du CREST) Commanditaires : CREST https://crest.science/event/regis-renault-cergy-tba/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:b92ce8391ea9@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260917T000000
+DTEND:20260918T235959
+SUMMARY:Workshop on statistics of stochastic processes in honor of Yury Kutoyants&#8217\; 80th birthday
+DESCRIPTION:Workshop on statistics of stochastic processes in honor of Yury Kutoyants’ 80th birthday This workshop is focused on the statistical theory of random processes. The emphasis will be put on the processes presenting a temporal structure with continuous- or discrete-time observation schemes. Th https://crest.science/event/workshop-on-statistics-of-stochastic-processes-in-honor-of-yury-kutoyants-80th-birthday/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:264b2c9c57a8@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260917T090000
+DTEND:20260917T173000
+SUMMARY:PSE Macro Days 2026
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:Amphithéâtre Daniel Cohen\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:6ee331b2415b@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260917T123000
+DTEND:20260917T134500
+SUMMARY:Applied Microeconomics Seminar — Â Lassi AHLVIK
+DESCRIPTION:University of Helsinki https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:871ed9de23e8@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260917T140000
+DTEND:20260917T160000
+SUMMARY:Eric GHYSELS (UNC Chapel Hill) &#8220\;Narrative-driven Stochastic Discount Factor Models&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] [/vccolumntext][/vccolumn][/vcrow][vcrow][vccolumn][vccolumntext]Séminaire d’économétrie 14h – 16h jeudi 17 septembre 2026 Salle 3001 Eric GHYSELS (UNC Chapel Hill) “Narrative-driven Stochastic Discount Factor Models” Résumé : We treat https://crest.science/event/eric-ghysels-unc-chapel-hill-seasonality-in-high-dimensional-data/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:e0ef0453588f@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260917T140000
+DTEND:20260917T160000
+SUMMARY:Zhenya LIU (EM Normandie) &#8220\;Inferential theory for Reduced Rank Regression with Omitted Factors&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Séminaire Économétrie 14h – 16h jeudi 17 septembre 2026 Salle 3001 Zhenya LIU (EM Normandie) « Théorie inférentielle pour la régression à rang réduit avec facteurs omis » Résumé : Cet article présente un cadre d’estimation et d’inférence pour les modè https://crest.science/event/zhenya-liu-em-normandie-inferential-theory-for-reduced-rank-regression-with-omitted-factors/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:3717647054d0@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260918T123000
+DTEND:20260918T134500
+SUMMARY:Friday Seminar — Morgan HARDY
+DESCRIPTION:& ClÃ©ment MONTES (CREST-ENSAE) New York University Abu Dhabi https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:1d7b4d41b60a@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260918T130000
+DTEND:20260918T140000
+SUMMARY:Casual Friday Development — Mariachiara Iannuzzi
+DESCRIPTION:PSE https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-09\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:96339dca7543@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260921T160000
+DTEND:20260921T171500
+SUMMARY:Roy-ADRES Seminar — Clemens PUPPE
+DESCRIPTION:Karlsruhe Institute of Technology https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:609916237238@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260922T121500
+DTEND:20260922T133000
+SUMMARY:Marius BRÜLHART (University of Lausanne) &#8211\; &#8220\;t.b.a.&#8221\;
+DESCRIPTION:Applied Micro Seminar : Every Tuesday Time: 12:15 pm – 13:30 pm Date: September\, 22 Room : 3001 Marius BRÜLHART (University of Lausanne) “t.b.a” Abstract : Organizers: Benoît SCHMUTZ (Pôle économie du CREST) Clément MALGOUYRES (Pôle économie du CREST) Sponsors: CREST https://crest.science/event/thttps-people-unil-ch-mariusbrulhart/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:2a0197b03858@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260922T133000
+DTEND:20260922T151500
+SUMMARY:Law\, Institutions and Economics in Nanterre (LIEN) — Louis Pape
+DESCRIPTION:Fighting Tax Evasion in the Gig Economy: Evidence from French Administrative Data Telecom Paris\, CREST https://economix.fr/fr/law-institutions-and-economics-in-nanterre-lien
+LOCATION:Salle G614\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:81dc5646c5ee@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260922T143000
+DTEND:20260922T154500
+SUMMARY:Paris trade seminar — Feodora Teti
+DESCRIPTION:LMU https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:afebf0119067@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260923T163000
+DTEND:20260923T180000
+SUMMARY:Économie du développement — Erin Kelley
+DESCRIPTION:University of Chicago https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R2-01\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:74a09f5f57c8@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260923T170000
+DTEND:20260923T183000
+SUMMARY:Sciences Po / Banque de France Research Seminar — Xavier DEBRUN
+DESCRIPTION:Chief Economist\, Banque de France https://www.sciencespo.fr/department-economics/research/seminars/sciences-po-banque-de-france-research-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:cb58967dff59@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260924T160000
+DTEND:20260924T171500
+SUMMARY:Macroéconomie
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R1-15\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:a0ab790a0a5c@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260925T123000
+DTEND:20260925T134500
+SUMMARY:Friday Seminar — Agathe DENIS
+DESCRIPTION:JMC\, ScPo PhD https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:8ed64144485d@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260928T121500
+DTEND:20260928T133000
+SUMMARY:Christian HELLWIG (TSE) &#8220\;T.B.A.&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Macro seminar Time : 12h15 – 13h30 Date : 28th September 2026 Salle 3001 Christian HELLWIG (TSE) “T.B.A.” Abstract : https://crest.science/event/christian-hellwig-tse-t-b-a/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:35ffeabdd7c9@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260928T123000
+DTEND:20260928T134500
+SUMMARY:Departmental Seminar — Jonathan PARKER
+DESCRIPTION:MIT Sloan https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:3947c4f5de7a@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260928T160000
+DTEND:20260928T171500
+SUMMARY:Roy-ADRES Seminar — Gilat LEVY
+DESCRIPTION:London School of Economics https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:d73bb7a4683a@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260929T121500
+DTEND:20260929T133000
+SUMMARY:Renaud COULOMB (Ecole des Mines Paris) &#8211\; &#8220\;t.b.a.&#8221\;
+DESCRIPTION:Applied Micro Seminar : Every Tuesday Time: 12:15 pm – 13:30 pm Date: September\, 29 Room : 3001 Renaud COULOMB (Ecole des Mines Paris) “t.b.a” Abstract : Organizers: Benoît SCHMUTZ (Pôle économie du CREST) Clément MALGOUYRES (Pôle économie du CREST) Sponsors: CREST https://crest.science/event/https-sites-google-com-site-renaudcoulomb/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:161cc3dcc319@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260929T133000
+DTEND:20260929T151500
+SUMMARY:RESPIR — Économie politique des institutions — Olivier Favereau
+DESCRIPTION:La codétermination au fondement d'une nouvelle alliance entre l'économie et le droit Université Paris Nanterre & EconomiX https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:d3ae327fd472@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260930T121500
+DTEND:20261021T133000
+SUMMARY:Davide BORDOLI (CREST) &#8211\; &#8220\;tba&#8221\;
+DESCRIPTION:Séminaire Microéconomie : Tous les mercredis Heure : 12h15 – 13h30 Date : 30/09/2026 Salle : 3001 Davide BORDOLI (CREST) – “tba” CV : “tba” Organisateurs : Julien COMBE (Pôle d’Economie du CREST) ​​​​​​​​​​​​Yves Le YAOUANQ (Pôle d’Economie du CREST) Commanditaires : CREST https://crest.science/event/davide-bordoli-crest-tba/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:c3b9acf9f5b3@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20260930T140000
+DTEND:20260930T151500
+SUMMARY:Macroeconomics Seminar — Miren AZKARATE-ASKASUA
+DESCRIPTION:University of Mannheim https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:4d9a7f592139@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261001T100000
+DTEND:20261001T120000
+SUMMARY:Yasmine VAN DER STRATEN (Nova School of Business &#038\; Economics) &#8220\;Flooded House or Underwater Mortgage? The Macrofinancial Implications of Climate Change and Adaptation&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Séminaire QSEF – Économie et Finance Quantitatives Durables 10h – 12h Jeudi 1er octobre 2026 Salle 3001 Yasmine VAN DER STRATEN (Nova School of Business & Economics) « Maison inondée ou prêt hypothécaire à taux variable ? Les implications macrofinanciè https://crest.science/event/yasmine-van-der-straten-nova-school-of-business-economics-flooded-house-or-underwater-mortgage-the-macrofinancial-implications-of-climate-change-and-adaptation/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:f2b414458212@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261001T123000
+DTEND:20261001T134500
+SUMMARY:Applied Microeconomics Seminar — Â Rachid LAAJAJ
+DESCRIPTION:University of Los Andes https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:6baa04539791@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261002T123000
+DTEND:20261002T134500
+SUMMARY:Friday Seminar — Claire MONTIALOUX
+DESCRIPTION:Science Po https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:84723cc73898@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261005T121500
+DTEND:20261005T133000
+SUMMARY:Jonathon HAZELL (MIT) &#8220\;T.B.A.&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Macro seminar Time : 12h15 – 13h30 Date : 05th October 2026 Salle 3001 Jonathon HAZELL (MIT) “T.B.A.” Abstract : https://crest.science/event/jonathon-hazell-mit-t-b-a/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:8a8d336e30e6@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261005T123000
+DTEND:20261005T134500
+SUMMARY:Departmental Seminar — Shoshana VASSERMAN
+DESCRIPTION:Stanford https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:91d141c9555f@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261005T160000
+DTEND:20261005T171500
+SUMMARY:Roy-ADRES Seminar — Qianjun LYU
+DESCRIPTION:Universidad Carlos III Madrid https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:e89acdca07c8@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261006T123000
+DTEND:20261006T134500
+SUMMARY:Paris Trade Seminar — Rocco MACCHIAVELLO
+DESCRIPTION:LSE https://www.sciencespo.fr/department-economics/research/seminars/paris-trade-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:81f839a6bb0d@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261007T121500
+DTEND:20261104T133000
+SUMMARY:Salvatore NUNNARI (Bocconi) &#8211\; &#8220\;tba&#8221\;
+DESCRIPTION:Séminaire Microéconomie : Tous les mercredis Heure : 12h15 – 13h30 Date : 07/10/2026 Salle : 3001 Salvatore NUNNARI (Bocconi) – “tba” CV : “tba” Organisateurs : Julien COMBE (Pôle d’Economie du CREST) ​​​​​​​​​​​​Yves Le YAOUANQ (Pôle d’Economie du CREST) Commanditaires : CREST https://crest.science/event/salvatore-nunnari-bocconi-tba/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:03c495fbac8c@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261007T140000
+DTEND:20261007T151500
+SUMMARY:Macroeconomics Seminar — Gaston NAVARRO
+DESCRIPTION:Federal Reserve Bank of Richmond https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:43e61cf8939f@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261008T100000
+DTEND:20261008T120000
+SUMMARY:Sebastian KUHNERT (Ruhr University Bochum) &#8220\;New Developments in Nonlinear Time Series in Hilbert Spaces: Operator-Valued ARCH and Bilinear Processes&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext]Séminaire Macroéconomie Jeudi 08 octobre 2026 10h-12h Salle 3001 Sebastian KUHNERT (Ruhr University Bochum) “New Developments in Nonlinear Time Series in Hilbert Spaces: Operator-Valued ARCH and Bilinear Processes” Summary : Linear processes in Hil https://crest.science/event/sebastian-kuhnert-ruhr-university-bochum-new-developments-in-nonlinear-time-series-in-hilbert-spaces-operator-valued-arch-and-bilinear-processes/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:bd5cfe563019@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261009T123000
+DTEND:20261009T134500
+SUMMARY:Friday Seminar — Johanna ROTH
+DESCRIPTION:JMC\, ScPo PhD https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:04d7cf6899de@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261012T121500
+DTEND:20261012T133000
+SUMMARY:Federico DI PACE (ENSAI) &#8220\;T.B.A.&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Macro seminar Time : 12h15 – 13h30 Date : 12th October 2026 Salle 3001 Federico DI PACE (ENSAI) “T.B.A.” Abstract : https://crest.science/event/federico-di-pace-ensai-t-b-a/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:8f54afa926a2@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261012T123000
+DTEND:20261012T134500
+SUMMARY:Departmental Seminar — Jessie HANDBURY
+DESCRIPTION:Wharton UPenn https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:a39cf6cb4882@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261012T160000
+DTEND:20261012T171500
+SUMMARY:Roy-ADRES Seminar — Luciano POMATTO
+DESCRIPTION:CalTech https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:e1886ae59bbf@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261013T133000
+DTEND:20261013T151500
+SUMMARY:RESPIR — Économie politique des institutions — Sina Badiei
+DESCRIPTION:The fact/value entanglement problem and the ‘avoidable suffering’ response: Sraffa\, Georgescu-Roegen\, Popper and Rawls Université de Strasbourg & BETA https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:f7e8d0517645@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261014T121500
+DTEND:20261118T133000
+SUMMARY:Sandro SHELEGIA (Pompeu Fabra) &#8211\; &#8220\;tba&#8221\;
+DESCRIPTION:Séminaire Microéconomie : Tous les mercredis Heure : 12h15 – 13h30 Date : 14/10/2026 Salle : 3001 Sandro SHELEGIA (Pompeu Fabra) – “tba” CV : “tba” Organisateurs : Julien COMBE (Pôle d’Economie du CREST) ​​​​​​​​​​​​Yves Le YAOUANQ (Pôle d’Economie du CREST) Commanditaires : CREST https://crest.science/event/sandro-shelegia-pompeu-fabra-tba/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:b5d8cf3b38a2@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261015T123000
+DTEND:20261015T134500
+SUMMARY:Applied Microeconomics Seminar — Celine ZIPFEL
+DESCRIPTION:Stockholm Schoolof Economics https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:790119de4868@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261015T123000
+DTEND:20261015T133000
+SUMMARY:Travail et économie publique
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R2-21\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:2bb6ae0c3da9@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261016T123000
+DTEND:20261016T134500
+SUMMARY:Friday Seminar — Nathaniel BUTLER-BLONDEL
+DESCRIPTION:JMC\, ScPo PhD https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:8a3e309010a2@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261019T140000
+DTEND:20261019T153000
+SUMMARY:L'économie mondiale postmoderne
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:Amphithéâtre\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:cae744745076@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261020T133000
+DTEND:20261020T151500
+SUMMARY:RESPIR — Économie politique des institutions — Louise Villeneuve
+DESCRIPTION:On the Meaning and Historical Roots of the Concept of Sustainable Consumption CIRED https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:c288d9038b85@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261023T123000
+DTEND:20261023T134500
+SUMMARY:Friday Seminar — Niklas SCHOCH
+DESCRIPTION:JMC\, ScPo PhD https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9f2273b118@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261102T160000
+DTEND:20261102T171500
+SUMMARY:Roy-ADRES Seminar — Simon LOERTSCHER
+DESCRIPTION:University of Melbourne https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9edb817f84@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261103T093000
+DTEND:20261103T193000
+SUMMARY:Journées de l’économie 2026
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:e58e9623ba6e@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261103T123000
+DTEND:20261103T134500
+SUMMARY:Paris Trade Seminar — Kalina MANOVA
+DESCRIPTION:University College London https://www.sciencespo.fr/department-economics/research/seminars/paris-trade-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:32fcd0bb3ee1@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261104T140000
+DTEND:20261104T151500
+SUMMARY:Macroeconomics Seminar — Luigi GUISO
+DESCRIPTION:Einaudi Institute for Economics and Finance https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:eccd0d79f4d7@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261106T123000
+DTEND:20261106T134500
+SUMMARY:Réunion annuelle ESOC-ReCIPE 2026
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:TBA\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:6f456f2b28a6@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261109T121500
+DTEND:20261109T133000
+SUMMARY:Elena HEROLD (Ifo Institute and LMU Munich) &#8220\;T.B.A.&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Macro seminar Time : 12h15 – 13h30 Date : 09th November 2026 Salle 3001 Elena HEROLD (Ifo Institute and LMU Munich) “T.B.A.” Abstract : https://crest.science/event/elena-herold-ifo-institute-and-lmu-munich-t-b-a/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:5f98491ee1fb@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261109T160000
+DTEND:20261109T171500
+SUMMARY:Roy-ADRES Seminar — Martino BANCHIO
+DESCRIPTION:Bocconi https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:43acfc6689ef@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261113T123000
+DTEND:20261113T134500
+SUMMARY:Friday Seminar — Alex BRYSON
+DESCRIPTION:& Viktor VETERINAROV (ScPo PhD) University College London https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:0614cbaaf0e7@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261116T123000
+DTEND:20261116T134500
+SUMMARY:Departmental Seminar — Oleg ITSKHOKI
+DESCRIPTION:Harvard https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:ec94709bd0f2@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261116T160000
+DTEND:20261116T171500
+SUMMARY:Roy-ADRES Seminar — David AHN
+DESCRIPTION:Washington University Olin School of Business https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:881f68974cfe@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261117T123000
+DTEND:20261117T134500
+SUMMARY:Paris Trade Seminar — Gianmarco OTTAVIANO
+DESCRIPTION:Bocconi https://www.sciencespo.fr/department-economics/research/seminars/paris-trade-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:821caf7deebe@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261117T133000
+DTEND:20261117T151500
+SUMMARY:RESPIR — Économie politique des institutions — Michaël Zemmour
+DESCRIPTION:L'économie politique sur le rapport des stratégies économiques de droite et de gauche françaises à la question de la croissance (ou l'absence de croissance)" Université de Lyon & Triangle https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:278985fb5087@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261118T123000
+DTEND:20261118T134500
+SUMMARY:Conférence de l’Association Française d’Économie des Transports
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:Amphithéâtre Daniel Cohen\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:81ac71212e83@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261119T123000
+DTEND:20261119T134500
+SUMMARY:Applied Microeconomics Seminar — Thomas BREDA
+DESCRIPTION:Paris School of Economics\, CNRS https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:8114f2c4fdde@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261123T123000
+DTEND:20261123T134500
+SUMMARY:Departmental Seminar — Antonella TRIGARI
+DESCRIPTION:Bocconi https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:cb896146f794@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261123T160000
+DTEND:20261123T171500
+SUMMARY:Roy-ADRES Seminar — Dimitri VAYANOS
+DESCRIPTION:London School of Economics https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:1d170b02183a@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261126T100000
+DTEND:20261126T120000
+SUMMARY:Nicolás Oviedo-Dávila (Universitat Autònoma de Barcelona | Barcelona School of Economics) &#8220\;Targeting Additionality: A Theory of Blended Finance&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext]Séminaire QSEF – Quantitative Sustainable Economics & Finance 10h – 12h Jeudi 26 novembre 2026 Salle 3001 Nicolás Oviedo-Dávila (Universitat Autònoma de Barcelona | Barcelona School of Economics) “Targeting Additionality: A Theory of Blended Finance” https://crest.science/event/nicolas-oviedo-davila-universitat-autonoma-de-barcelona-barcelona-school-of-economics-targeting-additionality-a-theory-of-blended-finance/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:31a5aeacfabc@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261127T123000
+DTEND:20261127T134500
+SUMMARY:Friday Seminar — Kunal PANDA
+DESCRIPTION:& Swann CHELLY (ScPo PhD) ScPo PhD https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:8a000275fbd7@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261130T123000
+DTEND:20261130T134500
+SUMMARY:Departmental Seminar — Barbara PETRONGOLO
+DESCRIPTION:Oxford https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:c5060f5de52e@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261130T160000
+DTEND:20261130T171500
+SUMMARY:Roy-ADRES Seminar — Daniel CLARK
+DESCRIPTION:University of California at Los Angeles https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:4a21a093abad@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261201T123000
+DTEND:20261201T134500
+SUMMARY:Paris Trade Seminar — Ferdinand RAUCH
+DESCRIPTION:University of St Gallen https://www.sciencespo.fr/department-economics/research/seminars/paris-trade-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:19ec70e8f589@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261201T133000
+DTEND:20261201T151500
+SUMMARY:RESPIR — Économie politique des institutions — Simon Papaud
+DESCRIPTION:Le pouvoir institutionnel de la monnaie et la critique écologique de l'accumulation. Relire la tradition anti-thésaurisation de Proudhon à Keynes Université de Picardie Jules Verne https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:b9677902a996@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261202T140000
+DTEND:20261202T151500
+SUMMARY:Macroeconomics Seminar — Kurt MITMAN
+DESCRIPTION:Institute for International Economic Studies https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:298711c3cf78@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261203T123000
+DTEND:20261203T134500
+SUMMARY:Applied Microeconomics Seminar — Attila LINDNER
+DESCRIPTION:Â University College London https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:934e645002f4@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261204T123000
+DTEND:20261204T134500
+SUMMARY:Friday Seminar — Jeteesha FOOLLEE
+DESCRIPTION:ScPo PhD https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:eca876ce5217@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261207T160000
+DTEND:20261207T171500
+SUMMARY:Roy-ADRES Seminar — Anna SANKTJOHANSER
+DESCRIPTION:Toulouse School of Economics https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:2e8d21667c3e@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261210T100000
+DTEND:20261210T120000
+SUMMARY:Jordan HOLDORF (University of York) &#8220\;When and Where Should We Invest in Nature? Adaptive Optimisation for Ecosystem Restoration under Climate Risk&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Séminaire QSEF – Économie et Finance Quantitatives Durables 10h – 12h Jeudi 10 décembre 2026 Salle 3001 Jordan HOLDORF (Université de York) « Quand et où devons-nous investir dans la nature ? Optimisation adaptative pour la restauration des écosystèmes https://crest.science/event/jordan-holdorf-university-of-york-when-and-where-should-we-invest-in-nature-adaptive-optimisation-for-ecosystem-restoration-under-climate-risk/
+LOCATION:3001\, 5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:e7f87848ff52@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261210T123000
+DTEND:20261210T134500
+SUMMARY:L’immigration dans les pays de l’OCDE
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:TBA\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:e9985ea18405@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261211T123000
+DTEND:20261211T134500
+SUMMARY:Friday Seminar — Felipe LAURITZEN
+DESCRIPTION:& Gabrielle MONFORT-SAGOT (INSEE\, ScPo PhD) JMC\, ScPo PhD https://www.sciencespo.fr/department-economics/research/seminars/friday-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:9fb963443a5e@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261214T121500
+DTEND:20261214T133000
+SUMMARY:Paola PROFETA (Bocconi University) &#8220\;T.B.A.&#8221\;
+DESCRIPTION:[vcrow][vccolumn][vccolumntext] Macro seminar Time : 12h15 – 13h30 Date : 14th December 2026 Salle 3001 Paola PROFETA (Bocconi University) “T.B.A.” Abstract : https://crest.science/event/paola-profeta-bocconi-university-t-b-a/
+LOCATION:5 avenue Henry Le Chatelier\, 91120 Palaiseau
+END:VEVENT
+BEGIN:VEVENT
+UID:35f131c91e02@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261214T160000
+DTEND:20261214T171500
+SUMMARY:Roy-ADRES Seminar — Maryam SAEEDI & Ali SHOURIDEH
+DESCRIPTION:Carnegie Mellon University\, Tepper School of Business https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:a01e33a9733d@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20261215T123000
+DTEND:20261215T134500
+SUMMARY:Politiques macroéconomiques avec des agents hétérogènes
+DESCRIPTION:https://www.parisschoolofeconomics.eu/evenements/
+LOCATION:R2-21\, 48 boulevard Jourdan\, 75014 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:0d0cf647a922@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270112T133000
+DTEND:20270112T151500
+SUMMARY:RESPIR — Économie politique des institutions — Ariel Guillet
+DESCRIPTION:La "socioéconomie" wébérienne aujourd'hui: marchés\, capitalismes et rationalités Université Paris Nanterre & EconomiX https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:277710c94551@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270119T133000
+DTEND:20270119T151500
+SUMMARY:RESPIR — Économie politique des institutions — Gaëtan Le Quang
+DESCRIPTION:L'héritage et le projet\, essai sur la valeur Université Paris Nanterre & EconomiX https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:53f8c7ed0ebd@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270202T133000
+DTEND:20270202T151500
+SUMMARY:RESPIR — Économie politique des institutions — Baptiste Bridonneau
+DESCRIPTION:Ceci n'est pas une dette - une critique du concept de "dette publique" ENS Paris Saclay https://economix.fr/fr/recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+LOCATION:Salle G614B\, 200 avenue de la République\, 92001 Nanterre
+END:VEVENT
+BEGIN:VEVENT
+UID:2c86849152a2@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270222T160000
+DTEND:20270222T171500
+SUMMARY:Roy-ADRES Seminar — Francesco SQUINTANI
+DESCRIPTION:University of Warwick https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:5ca34f4a56bc@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270225T123000
+DTEND:20270225T134500
+SUMMARY:Applied Microeconomics Seminar — Douglas GOLLIN
+DESCRIPTION:Tufts University https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:01ff79d568a1@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270301T123000
+DTEND:20270301T134500
+SUMMARY:Departmental Seminar — Mike ELSBY
+DESCRIPTION:University of Edinburgh https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:ed6e065e0795@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270301T160000
+DTEND:20270301T171500
+SUMMARY:Roy-ADRES Seminar — Emanuel VESPA
+DESCRIPTION:University of California at San Diego https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:ecdd16f6bca4@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270303T140000
+DTEND:20270303T151500
+SUMMARY:Macroeconomics Seminar — Mark AGUIAR
+DESCRIPTION:Princeton https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:57b4881e7f86@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270308T123000
+DTEND:20270308T134500
+SUMMARY:Departmental Seminar — Jerome ADDA
+DESCRIPTION:Bocconi https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:b18a6e7b26b1@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270308T160000
+DTEND:20270308T171500
+SUMMARY:Roy-ADRES Seminar — Alex WOLITZKY
+DESCRIPTION:Massachusetts Institute of Technology https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:c21e29abac78@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270310T140000
+DTEND:20270310T151500
+SUMMARY:Macroeconomics Seminar — Lukas FREUND
+DESCRIPTION:Boston University https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:705e545c4171@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270311T123000
+DTEND:20270311T134500
+SUMMARY:Applied Microeconomics Seminar — Gianmarco LEÃN
+DESCRIPTION:Universitat Pompeu Fabra https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:39d193c4f9e8@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270315T123000
+DTEND:20270315T134500
+SUMMARY:Departmental Seminar — Peter GANONG
+DESCRIPTION:University of Chicago https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:7612582b81dd@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270315T160000
+DTEND:20270315T171500
+SUMMARY:Roy-ADRES Seminar — Navin KARTIK
+DESCRIPTION:Yale https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:bb7bc534cf2b@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270322T123000
+DTEND:20270322T134500
+SUMMARY:Departmental Seminar — Andreas LANGE
+DESCRIPTION:University of Hamburg https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:6efea34a49cb@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270322T160000
+DTEND:20270322T171500
+SUMMARY:Roy-ADRES Seminar — Juuso VÃLIMÃKI
+DESCRIPTION:University of Aalto https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:728379c53cce@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270324T140000
+DTEND:20270324T151500
+SUMMARY:Macroeconomics Seminar — Marta PRATO
+DESCRIPTION:Bocconi https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:3d26bc71932f@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270325T123000
+DTEND:20270325T134500
+SUMMARY:Applied Microeconomics Seminar — Jennifer HUNT
+DESCRIPTION:Rutgers University https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:2b8a4159fae0@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270331T140000
+DTEND:20270331T151500
+SUMMARY:Macroeconomics Seminar — Pablo OTTONELLO
+DESCRIPTION:University of Maryland https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:09ab7e112456@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270404T123000
+DTEND:20270404T134500
+SUMMARY:Departmental Seminar — Hans-Joachim VOTH
+DESCRIPTION:University of Zurich https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:01b505684c80@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270419T160000
+DTEND:20270419T171500
+SUMMARY:Roy-ADRES Seminar
+DESCRIPTION:À confirmer https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:e6231b1a7a3e@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270426T160000
+DTEND:20270426T171500
+SUMMARY:Roy-ADRES Seminar
+DESCRIPTION:À confirmer https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:d777c3f62a24@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270429T123000
+DTEND:20270429T134500
+SUMMARY:Applied Microeconomics Seminar — Rodrigo SOARES
+DESCRIPTION:Insper\, visiting Bocconi https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:2856f1c400ec@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270503T123000
+DTEND:20270503T134500
+SUMMARY:Departmental Seminar — JoÃ£o COCCO
+DESCRIPTION:London Business School https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:56ae6d6c3b76@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270503T160000
+DTEND:20270503T171500
+SUMMARY:Roy-ADRES Seminar — Federico ECHENIQUE
+DESCRIPTION:University of California at Berkeley https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:7d14c232b212@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270510T123000
+DTEND:20270510T134500
+SUMMARY:Departmental Seminar — Patrick KLINE
+DESCRIPTION:UC Berkeley https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:ec2829e172d8@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270510T160000
+DTEND:20270510T171500
+SUMMARY:Roy-ADRES Seminar — Junjie ZHOU
+DESCRIPTION:Tsinghua University https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:25bf73dc2bac@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270512T140000
+DTEND:20270512T151500
+SUMMARY:Macroeconomics Seminar — Laura PILOSSOPH
+DESCRIPTION:Duke University https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:0b82d7475609@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270519T140000
+DTEND:20270519T151500
+SUMMARY:Macroeconomics Seminar — Clara MARTINEZ-TOLEDANO
+DESCRIPTION:Imperial College Business School https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:e3313222e804@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270524T123000
+DTEND:20270524T134500
+SUMMARY:Departmental Seminar — Ellen DERENONCOURT
+DESCRIPTION:Princeton https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:abc4a9ce695d@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270524T160000
+DTEND:20270524T171500
+SUMMARY:Roy-ADRES Seminar — Fuhito KOJIMA
+DESCRIPTION:University of Tokyo https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:49f4be3e6f80@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270526T140000
+DTEND:20270526T151500
+SUMMARY:Macroeconomics Seminar — Michael PETERS
+DESCRIPTION:Yale https://www.sciencespo.fr/department-economics/research/seminars/macroeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:bfcc58d15c8b@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270527T123000
+DTEND:20270527T134500
+SUMMARY:Applied Microeconomics Seminar — Seema JAYACHANDRAN
+DESCRIPTION:Princeton https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:7f592cc98fdc@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270531T123000
+DTEND:20270531T134500
+SUMMARY:Departmental Seminar — Edouard SCHAAL
+DESCRIPTION:CREI https://www.sciencespo.fr/department-economics/research/seminars/departmental-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:33240854e200@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270531T160000
+DTEND:20270531T171500
+SUMMARY:Roy-ADRES Seminar — Botond KOSZEGI
+DESCRIPTION:University of Bonn https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:bf5d3c7c3533@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270603T123000
+DTEND:20270603T134500
+SUMMARY:Applied Microeconomics Seminar — Bocar BA
+DESCRIPTION:Duke University https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:47141c60625e@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270607T160000
+DTEND:20270607T171500
+SUMMARY:Roy-ADRES Seminar — Aniko ÃRY
+DESCRIPTION:Carnegie Mellon University\, Tepper School of Business https://www.sciencespo.fr/department-economics/research/seminars/roy-adres-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:05fe9b2741d1@agenda-eco-paris
+DTSTAMP:20260903T231407
+DTSTART:20270610T123000
+DTEND:20270610T134500
+SUMMARY:Applied Microeconomics Seminar — Winnie van DIJK
+DESCRIPTION:Yale https://www.sciencespo.fr/department-economics/research/seminars/applied-microeconomics-seminar/
+LOCATION:28 rue des Saints-Pères\, 75007 Paris
+END:VEVENT
+END:VCALENDAR

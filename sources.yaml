@@ -1,0 +1,266 @@
+# Registre des sources de l'agenda.
+#
+# Chaque source a un `adapter` qui dit COMMENT lire le site :
+#   ics          -> flux iCalendar (le plus fiable, aucun scraping)
+#   csv          -> feuille Google Sheets publiée en CSV (saisie manuelle)
+#   tribe_rest   -> WordPress + plugin "The Events Calendar" (API JSON)
+#   wp_rest      -> WordPress, API JSON standard (articles/événements)
+#   jsonld       -> page HTML qui embarque du schema.org/Event (très courant)
+#   xlagenda     -> l'agenda XLAgenda de PSE (pseweb.eu) : ~40 séminaires
+#   sciencespo   -> pages "séminaires" du département d'éco de Sciences Po
+#
+# `status: verified`  = URL contrôlée, structure connue
+# `status: to_check`  = URL plausible, à confirmer avec `python -m aggregator check`
+#
+# Pour ajouter un labo : copie un bloc, change le nom et l'URL, lance `check`.
+
+sources:
+
+  # ---------------------------------------------------------------- PSE & MSE
+  - id: pse-agenda
+    name: PSE / Paris-Jourdan (agenda commun)
+    institution: PSE
+    city: Paris 14e
+    adapter: xlagenda
+    url: https://www.pseweb.eu/agenda/index.php   # le www est obligatoire :
+    months_ahead: 4                                # sans lui, ?month= est perdu
+    status: verified
+    note: >
+      Ancien agenda mutualisé PSE / EHESS / ENS / Paris 1 / Ponts, sur XLAgenda.
+      Il n'est plus alimenté depuis la refonte du site de PSE : les séances
+      passent maintenant par la source pse-site. On le garde parce qu'il ne
+      coûte rien et qu'il couvrait des séminaires de socio et d'histoire du
+      campus Jourdan absents du nouvel agenda — s'il reste vide tout l'automne,
+      supprime ce bloc.
+
+  - id: pse-site
+    name: PSE — agenda du site institutionnel
+    institution: PSE
+    city: Paris 14e
+    adapter: pse_events
+    url: https://www.parisschoolofeconomics.eu/evenements/
+    pages: 4
+    status: verified
+    note: >
+      C'est désormais LA source PSE : séminaires, colloques et conférences y
+      sont tous annoncés, avec salle et horaire. La page agrège même des
+      séances tenues au CREST et à Sciences Po — d'où les doublons, que le
+      dédoublonnage fusionne. Augmente `pages` si la collecte plafonne.
+
+  # ------------------------------------------------------------- Sciences Po
+  - id: sciencespo-eco
+    name: Sciences Po — Département d'économie
+    institution: Sciences Po
+    city: Paris 7e
+    adapter: sciencespo
+    base: https://www.sciencespo.fr/department-economics/research/seminars/
+    status: verified
+    seminars:
+      - slug: departmental-seminar
+        title: Departmental Seminar
+        default_time: "12:30-13:45"
+      - slug: macroeconomics-seminar
+        title: Macroeconomics Seminar
+        default_time: "14:00-15:15"
+      - slug: econometrics-seminar
+        title: Econometrics Seminar
+        default_time: "16:00-17:15"
+      - slug: roy-adres-seminar
+        title: Roy-ADRES Seminar
+        default_time: "16:00-17:15"
+      - slug: paris-trade-seminar
+        title: Paris Trade Seminar
+        default_time: "12:30-13:45"
+      - slug: structural-seminar
+        title: Structural Seminar
+        default_time: "12:30-13:45"
+      - slug: applied-microeconomics-seminar
+        title: Applied Microeconomics Seminar
+        default_time: "12:30-13:45"
+      - slug: friday-seminar
+        title: Friday Seminar
+        default_time: "12:30-13:45"
+      - slug: sciences-po-banque-de-france-research-seminar
+        title: Sciences Po / Banque de France Research Seminar
+        default_time: "17:00-18:30"
+
+  # ------------------------------------------------------------ CREST / ENSAE
+  - id: crest
+    name: CREST (ENSAE / École polytechnique)
+    institution: CREST
+    city: Palaiseau
+    adapter: tribe_rest
+    url: https://crest.science
+    status: verified
+    note: >
+      WordPress + The Events Calendar : séminaires Applied Micro, Macro,
+      Microéconométrie, Théorie, Finance-Assurance, Statistique.
+
+  # ------------------------------------------------------- Paris 1 / Sorbonne
+  - id: ces-paris1
+    name: Centre d'économie de la Sorbonne (Paris 1)
+    institution: Paris 1
+    city: Paris 13e
+    adapter: jsonld
+    url: https://ces.pantheonsorbonne.fr/recherche/seminaires-3
+    status: to_check
+    note: >
+      Le site a déménagé : ces.univ-paris1.fr n'existe plus, c'est désormais
+      ces.pantheonsorbonne.fr. L'autre adresse, economiesorbonne.cnrs.fr, a un
+      certificat TLS invalide (il annonce default.https.cnrs.fr) et n'est donc
+      pas joignable. La plupart des séminaires du CES remontent de toute façon
+      via pse-agenda, puisqu'ils se tiennent à la Maison des Sciences Éco.
+
+  # -------------------------------------------------------------- Paris 2 CRED
+  - id: cred-paris2
+    name: CRED — Université Paris 2 Panthéon-Assas
+    institution: Paris 2
+    city: Paris 5e
+    adapter: jsonld
+    url: https://cred.u-paris2.fr/
+    status: to_check
+
+  # -------------------------------------------------------------- Dauphine
+
+  # -------------------------------------------------------------- Nanterre
+  - id: economix
+    name: EconomiX — Université Paris Nanterre
+    institution: Nanterre
+    city: Nanterre
+    adapter: economix
+    base: https://economix.fr/fr
+    status: verified
+    seminars:
+      - slug: law-institutions-and-economics-in-nanterre-lien
+        title: Law, Institutions and Economics in Nanterre (LIEN)
+        default_time: "13:30-15:15"
+        room: Salle G614
+      - slug: recherche-en-economie-et-socioeconomie-politique-des-institutions-et-des-regulations-respir
+        title: RESPIR — Économie politique des institutions
+        default_time: "13:30-15:15"
+        room: Salle G614B
+      - slug: transitions
+        title: Transitions
+        default_time: "10:30-12:00"
+        room: Salle 614A
+      - slug: economie-comportementale
+        title: Économie comportementale
+        default_time: "12:30-14:00"
+      - slug: economies-du-monde-musulman
+        title: Économies du monde musulman
+        default_time: "14:00-16:00"
+        room: Salle G614
+      - slug: doctorants
+        title: Séminaire des doctorants
+        default_time: "12:30-14:00"
+
+  # -------------------------------------------------------------- CY Cergy
+
+  # --------------------------------------------- Saisie manuelle (Sheets)
+  # Pour les séances annoncées uniquement par mail ou par affichage.
+  # Dans Sheets : Fichier > Partager > Publier sur le Web > CSV, puis colle
+  # l'URL obtenue ci-dessous et retire le « # » des quatre lignes.
+  # Colonnes : date | debut | fin | seminaire | intervenant | affiliation |
+  #            titre | salle | institution | url
+  # - id: saisie-manuelle
+  #   name: Séances saisies à la main
+  #   institution: Divers
+  #   adapter: csv
+  #   url: https://docs.google.com/spreadsheets/d/e/XXXX/pub?gid=0&single=true&output=csv
+
+  # ---------------------------------------------------------- Institutions
+  # Ces cinq sources sont en sommeil : les URL ci-dessous renvoient une 404 ou
+  # ne résolvent plus. Il faut retrouver la page « agenda » de chacune, puis
+  # décommenter le bloc et lancer `check --only <id>`.
+  #
+  # - id: banque-de-france   (404 sur /en/economics/research-seminars-and-conferences)
+  # - id: cepii              (404 sur /CEPII/fr/evenements/evenements.asp)
+  # - id: ipp                (pas d'API wp-json/events sur ipp.eu)
+  # - id: ofce               (ofce.sciences-po.fr redirige vers ofce.fr, /evenements 404)
+  # - id: thema              (thema.cyu.fr ne résout plus)
+  # - id: dauphine-leda      (la page répond mais ne contient aucune date exploitable)
+  # - id: college-de-france  (idem : agenda rendu en JavaScript)
+
+# Lieux connus : sert à afficher une adresse et un lien plan même quand la
+# source ne donne qu'un numéro de salle (« R1-09 », « salle 3001 »...).
+venues:
+  PSE:
+    address: 48 boulevard Jourdan, 75014 Paris
+    transit: RER B Cité Universitaire / T3a Montsouris
+    lat: 48.8213
+    lon: 2.3376
+  Paris 1:
+    address: Maison des Sciences Économiques, 106-112 boulevard de l'Hôpital, 75013 Paris
+    transit: M5 Campo-Formio
+    lat: 48.8329
+    lon: 2.3595
+  Sciences Po:
+    address: 28 rue des Saints-Pères, 75007 Paris
+    transit: M12 Rue du Bac
+    lat: 48.8556
+    lon: 2.3287
+  CREST:
+    address: 5 avenue Henry Le Chatelier, 91120 Palaiseau
+    transit: RER B Massy-Palaiseau puis bus 91-06
+    lat: 48.7130
+    lon: 2.2094
+  Paris 2:
+    address: 12 place du Panthéon, 75005 Paris
+    transit: RER B Luxembourg
+    lat: 48.8467
+    lon: 2.3444
+  Dauphine:
+    address: Place du Maréchal de Lattre de Tassigny, 75016 Paris
+    transit: M2 Porte Dauphine
+    lat: 48.8703
+    lon: 2.2743
+  Nanterre:
+    address: 200 avenue de la République, 92001 Nanterre
+    transit: RER A Nanterre-Université
+    lat: 48.9016
+    lon: 2.2119
+  Banque de France:
+    address: 31 rue Croix des Petits Champs, 75001 Paris
+    transit: M1 Palais Royal
+    lat: 48.8641
+    lon: 2.3406
+  CEPII:
+    address: 20 avenue de Ségur, 75007 Paris
+    transit: M8 École Militaire
+    lat: 48.8506
+    lon: 2.3076
+  IPP:
+    address: 48 boulevard Jourdan, 75014 Paris
+    transit: RER B Cité Universitaire
+    lat: 48.8213
+    lon: 2.3376
+  OFCE:
+    address: 10 place de Catalogne, 75014 Paris
+    transit: M13 Gaîté
+    lat: 48.8353
+    lon: 2.3163
+  Collège de France:
+    address: 11 place Marcelin Berthelot, 75005 Paris
+    transit: RER B Luxembourg
+    lat: 48.8490
+    lon: 2.3453
+  CY Cergy:
+    address: 33 boulevard du Port, 95000 Cergy
+    transit: RER A Cergy-Préfecture
+    lat: 49.0357
+    lon: 2.0709
+
+# Classement thématique : mots-clés cherchés dans le nom du séminaire.
+fields:
+  Macro: [macro, monetary, monétaire, business cycle, propagation]
+  Micro appliquée: [applied, micro, labor, travail, health, santé, education, éducation, crime]
+  Théorie: [theory, théorie, game, jeux, roy, tom, decision, mechanism]
+  Économétrie: [econometric, économétrie, statistic, statistique, structural, méthodes]
+  Commerce & International: [trade, commerce, international, globalization, migration]
+  Développement: [development, développement, ngo, casual friday]
+  Histoire & pensée: [history, histoire, pensée, thought, halbwach]
+  Économie publique: [public, fiscal, tax, fiscalité, tep, protection sociale]
+  Environnement: [environment, environnement, climate, climat, energy, énergie, régulation, sustainable]
+  Finance: [finance, financial, banking, banque, risk, risque, assurance]
+  Politique & institutions: [political, politique, institution, pepes, epci, droit, law]
+  Urbain & régional: [urban, urbain, regional, régional, spatial, demographic, démographie]
